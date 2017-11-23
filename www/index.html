@@ -50,8 +50,7 @@
                      navigator.splashscreen.hide();
                 },
                 error: function (x) {
-                    alert("Failed load css" + x.responseText);
-                     navigator.splashscreen.hide();
+                     location.reload();
                 }
              });
         }
